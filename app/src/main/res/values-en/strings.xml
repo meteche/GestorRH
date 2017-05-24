@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="textLogin">Login</string>
-    <string name="textLogo">Logo de la empresa</string>
-    <string name="textImgInicio">Imagen de gerentes dando la bienvenida</string>
+    <string name="textLogo">Company logo</string>
+    <string name="textImgInicio">Image of managers welcoming</string>
 </resources>
