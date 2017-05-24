@@ -27,6 +27,7 @@
                 android:contentDescription="@string/textLogo" />
 
         </RelativeLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -34,39 +35,12 @@
             android:layout_weight="0.15"
             android:fillViewport="true">
 
-            <RelativeLayout
+            <Button
+                android:id="@+id/btnLogin"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="0.13"
-                tools:ignore="NestedWeights">
-
-                <ImageView
-                    android:id="@+id/imgInicio"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/inicio"
-                    android:contentDescription="@string/textImgInicio"/>
-
-            </RelativeLayout>
-            <RelativeLayout
-                android:id="@+id/btnInicieSesion"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="0.87">
-
-                <Button
-                    android:id="@+id/btnLogin"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="@string/textLogin"
-                    android:theme="@style/BtnPrincipal"
-                    android:layout_marginLeft="-5dip"
-                    android:layout_marginRight="-5dip"
-                    android:layout_marginTop="-6dip"
-                    android:layout_marginBottom="-6dip"
-                    android:onClick="inicieSesion"/>
-
-            </RelativeLayout>
+                android:layout_height="wrap_content"
+                android:text="@string/textLogin"
+                android:theme="@style/BtnPrincipal"/>
 
         </LinearLayout>
 
