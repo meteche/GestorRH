@@ -1,6 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">GestorRH</string>
-    <string name="textLogin">Iniciar Sesión</string>
+    <string name="textLogin">Login</string>
     <string name="textLogo">Logo de la empresa</string>
     <string name="textImgInicio">Imagen de gerentes dando la bienvenida</string>
 </resources>
